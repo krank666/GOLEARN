@@ -30,29 +30,29 @@ func Process() {
 			fmt.Println("none")
 		}*/
 
-	/*// 循环语句
+	// 循环语句
 	a := 0
 	for a < 10 {
 		a++
-		fmt.Println(a)
+
 	}
 	for a := 0; a < 10; a++ {
-
-	}*/
-
-	// 跳转语句
-	// goto 可以定义循环体
-	a := 0
-A:
-	for a < 10 {
-		a++
 		fmt.Println(a)
-		if a == 5 {
-			break A
-			goto B
-		}
 	}
-B:
-	fmt.Println("rush B!")
+
+	/*	// 跳转语句
+			// goto 可以定义循环体
+			a := 0
+		A:
+			for a < 10 {
+				a++
+				fmt.Println(a)
+				if a == 5 {
+					break A
+					goto B
+				}
+			}
+		B:
+			fmt.Println("rush B!")*/
 
 }
